@@ -30,7 +30,7 @@ async function getAdvice()
     console.log("1st advice - "+res1.data.fact);
     let div=document.querySelector(".fact");
     div.innerText=res1.data.fact;
-    let res2=await axios.get(url);
+    
     // let data2=await res2.json();
     console.log("2nd advice - "+res2.data.fact);
 }
